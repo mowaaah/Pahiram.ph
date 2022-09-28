@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Loan</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+			rel="stylesheet"
+			integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
+			crossorigin="anonymous"
+		/>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+			integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+			crossorigin="anonymous">
+    </script>
+	
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css"/>
+    
+    <!--ICONS-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+        
+    <!--ICON ON TITLE BAR-->
+	<link rel="shortcut icon" href="icon-modified.png" type="image/x-icon"/>
+
+    <style>
+        .ftrlinks{
+            color: #22272C;
+        }
+        .ftrlinks:hover{
+            color: gray;
+        }
+        .dot {
+            height: 60px;
+            width: 60px;
+            background-color: #004AAD;
+            border-radius: 50%;
+            display: inline-block;
+        }
+        .dot1 {
+            height: 60px;
+            width: 60px;
+            background-color: #FFDE59;
+            border-radius: 50%;
+            display: inline-block;
+        }
+        .dot2 {
+            height: 60px;
+            width: 60px;
+            background-color: #FF1616;
+            border-radius: 50%;
+            display: inline-block;
+        }
+        .dot3 {
+            height: 60px;
+            width: 60px;
+            background-color: white;
+            border-radius: 50%;
+            display: inline-block;
+        }
+        .sitemaplinks{
+            color: #22272C;
+        }
+        .sitemaplinks:hover{
+            color: gray;
+        }
+    </style>
+</head>
+<body>
+    <!--start of navbar-->
+    <div class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid ">
+            <a class="navbar-brand" href="index-1.html">
+                <img src="Pahiram-Logo-removebg-preview.png" style="width: 200px;">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#NavBarMenu" aria-controls="NavBarMenu" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon">
+                </span>
+            </button>
+            <div class="collapse navbar-collapse" id="NavBarMenu">
+
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 text-center">
+                   <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="index-1.html">Home</a>
+                   </li>
+                   <li class="nav-item">
+                    <a class="nav-link" href="learn_page.html">Learn</a>
+                   </li>
+                   <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="" role="button" data-bs-toggle="dropdown" aria-expanded="false">Loan Application</a>
+                      <ul class="dropdown-menu">
+                          <li>
+                              <a class="dropdown-item" href="Personal-Form.html">Personal Loan</a>
+                          </li>
+                          <li>
+                              <a class="dropdown-item" href="Business-Form.html">Business Loan</a>
+                          </li>
+                          <li>
+                              <a class="dropdown-item" href="Educational-Form.html">Student Loan</a>
+                          </li>
+                      </ul>
+                   </li> 
+
+                   <li class="nav-item">
+                    <a class="nav-link" href="about_page.html">About</a>
+                   </li>
+                </ul>
+
+                <form class="input-group d-lg-flex w-75 justify-content-center mx-auto" role="search">
+                    <input class="form-control ms-4 rounded-0" type="search" placeholder="Loan, Learn more, etc." aria-label="Search">
+                    <button class="btn btn-outline-dark rounded-0" type="submit">Search</button>
+                </form>
+                <div class="col-lg-1 d-flex justify-content-center">
+                    <a href="login_page.html"><button type="submit" class="btn btn-outline-dark">Log In</button></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--end of navbar-->
+
+    <!--Form Starts here-->
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12 mb-4" style="background-color: #E6EAEC;">
+                <img src="education-header.png" class="img-fluid rounded mx-auto w-75 d-block">
+            </div>
+        </div>
+
+        <div class="row">
+
+            <div class="col-12 mx-auto align-items-center justify-content-center"> <!--start of accordion-->
+                <h2 class="display-6 text-center mt-2">Student Loan Form 📃</h2>
+                <div class="row">
+                    <div class="accordion mt-3" id="studentAccordion">
+                        <div class="accordion-item"><!--accordion 1-->
+                            <h2 class="accordion-header" id="headingOne"> <!--a-header-->
+                                <button class="accordion-button collapsed in bg-light"
+                                        type="button"
+                                        data-bs-toggle="collapse"
+                                        data-bs-target="#accordBody1"
+                                        aria-expanded="true"
+                                        aria-controls="accordBody1">
+                                            <b style="font-family: Arial, Helvetica, sans-serif;">Personal Information</b>
+                                </button>
+                            </h2>
+                            <div class="accordion-collapse collapsed"
+                                 id="accordBody1"
+                                 aria-labelledby="headingOne"
+                                 data-bs-parent="#studentAccordion">
+                                 
+                                <div class="accordion-body">
+                                    <form action="">
+                                        <div class="row my-3">
+                                            <div class="col-md-1">
+                                                <label for="title">Title:</label>
+                                                <select class="form-control mt-2" id="title">
+                                                    <option></option>
+                                                    <option>Ms.</option>
+                                                    <option>Mr.</option>
+                                                    <option>Mrs.</option>
+                                                </select>
+                                            </div>
+                                            <div class="col-md">
+                                                <label for="name">First Name:</label>
+                                                <input type="text" class="form-control mt-2" id="name" placeholder="" required>
+                                            </div>
+                                            <div class="col-md">
+                                                <label for="username">Middle Name:</label>
+                                                <input type="text" class="form-control mt-2" id="name" placeholder="" required>
+                                            </div>
+                                            <div class="col-md">
+                                                <label for="username">Last Name:</label>
+                                                <input type="text" class="form-control mt-2" id="name" placeholder="" required>
+                                            </div>
+                                        </div>
+                                        <div class="row my-3">
+                                            <div class="col-md-3">
+                                                <div class="md-form md-outline input-with-post-icon datepicker input-group mt-3">
+                                                    <label class="input-group-text" for="birtdate">Birthdate:</label>
+                                                    <input type="date" id="birthdate" name="birthdate" placeholder="Select date" class="form-control">   
+                                                </div>
+                                            </div>
+                                            <div class="col-md-5">
+                                                <div class="input-group mt-3">
+                                                    <label class="input-group-text">Contact No.:</label>
+                                                    <input type="text" class="form-control" placeholder="09xxxxxxxx" maxlength="11" minlength="11">
+                                                </div>
+                                            </div>
+                                            <div class="col-md-4">
+                                                <div class="input-group mt-3">
+                                                    <label class="input-group-text">Gender</label>
+                                                    <select class="form-control">
+                                                        <option>Male</option>
+                                                        <option>Female</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="address1">Address</label>
+                                            <input type="text" class="form-control mt-2 mb-1" id="address1" placeholder="1234 Main St">
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="address1">Address 2</label>
+                                            <input type="text" class="form-control mt-2" id="address1" placeholder="Apartment, condo, etc.">
+                                        </div>
+                                        <div class="row my-3">
+                                            <div class="col-md">
+                                                <label for="city">City:</label>
+                                                <input type="text" class="form-control mt-2" id="city" placeholder="" required>
+                                            </div>
+                                            <div class="col-md">
+                                                <label for="state-province">State/Province:</label>
+                                                <input type="text" class="form-control mt-2" id="state-province" placeholder="" required>
+                                            </div>
+                                            <div class="col-md-3">
+                                                <label for="zip-code">Zip Code:</label>
+                                                <input type="text" class="form-control mt-2" id="zip-code" placeholder="" required>
+                                            </div>
+                                        </div>
+                                        <hr>
+                                        <h6 class="mt-3">School Details</h6>
+                                        <hr>
+                                        <div class="form-group mt-2">
+                                            <label for="employment">Name of School</label>
+                                            <input type="text" class="form-control mt-2" id="schlname">
+                                        </div>
+                                        <div class="form-group mt-2">
+                                            <label for="employment">School Adress</label>
+                                            <input type="text" class="form-control mt-2" id="schladdress">
+                                        </div><br>
+                                        <div class="form-group">
+                                            <label>Current Year</label>
+                                            <div class="form-check mt-2">
+                                                <input class="form-check-input" type="radio" id="firstyear" value="option1">
+                                                <label for="firstyear" class="form-check-label">1st year</label>
+                                            </div>
+                                            <div class="form-check mt-2">
+                                                <input class="form-check-input" type="radio" id="scndyear" value="option1">
+                                                <label for="scndyear" class="form-check-label">2nd year</label>
+                                            </div>
+                                            <div class="form-check mt-2">
+                                                <input class="form-check-input" type="radio" id="thirdyear" value="option1">
+                                                <label for="thirdyear" class="form-check-label">3rd year</label>
+                                            </div>
+                                            <div class="form-check mt-2">
+                                                <input class="form-check-input" type="radio" id="fourthyear" value="option1">
+                                                <label for="fourthyear" class="form-check-label">4th year</label>
+                                            </div>
+                                            <div class="form-check mt-2">
+                                                <input class="form-check-input" type="radio" id="fifthyear" value="option1">
+                                                <label for="fifthyear" class="form-check-label">5th year</label>
+                                            </div>
+                                        </div><br>
+                                        <div class="form-group">
+                                            <label>Program Type</label>
+                                            <div class="form-check mt-2">
+                                                <input class="form-check-input" type="radio" id="semester" value="option1">
+                                                <label for="semester" class="form-check-label">Semester</label>
+                                            </div>
+                                            <div class="form-check mt-2">
+                                                <input class="form-check-input" type="radio" id="Trimester" value="option1">
+                                                <label for="Trimester" class="form-check-label">Trimester</label>
+                                            </div>
+                                            <div class="form-check mt-2">
+                                                <input class="form-check-input" type="radio" id="quarterterm" value="option1">
+                                                <label for="quarterterm" class="form-check-label">Quarter Term</label>
+                                            </div>
+                                        </div>
+                                        <div class="form-group mt-2">
+                                        <label>Are you Employed?</label>
+                                            <div class="form-check mt-2">
+                                                <input class="form-check-input" type="radio" id="selfemp1" value="option1">
+                                                <label for="selfemp1" class="form-check-label">Yes</label>
+                                            </div>
+                                            <div class="form-check mt-2">
+                                                <input class="form-check-input" type="radio" id="selfemp2" value="option1">
+                                                <label for="selfemp2" class="form-check-label">No</label>
+                                            </div>
+                                        </div>
+                                        <div class="form-group mt-2">
+                                            <label for="rent"><i>if No, </i>Who is your guarantor?</label>
+                                            <input type="text" class="form-control mt-2" id="rent">
+                                        </div>
+                                        <div class="form-group mt-2">
+                                            <label for="rent"><i>Relationship with Guarantor</label>
+                                            <input type="text" class="form-control mt-2" id="rent">
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    
+                        <div class="accordion-item"><!--accordion 2-->
+                            <h2 class="accordion-header" id="headingTwo"> <!--a-header-->
+                                <button class="accordion-button collapsed in bg-light"
+                                        type="button"
+                                        data-bs-toggle="collapse"
+                                        data-bs-target="#accordBody2"
+                                        aria-expanded="false"
+                                        aria-controls="accordBody2">
+                                           <b style="font-family: Arial, Helvetica, sans-serif;">Uploading of Requirements</b>
+                                </button>
+                            </h2>
+                            <div class="accordion-collapse collapsed"
+                                 id="accordBody2"
+                                 aria-labelledby="headingTwo"
+                                 data-bs-parent="#studentAccordion">
+                                 
+                                 <div class="accordion-body">
+                                    <form action="">
+                                        <h4 class="display-6">For Student details</h4>
+                                        <hr>
+                                        <div class="form-group mt-3">
+                                            <label for="studId"><i> Valid IDs</i></label>
+                                            <div class="custom-file mt-2">
+                                                <input type="file" class="custom-file-input form-control" id="studId">
+                                                <label class="custom-file-label" for="studId"></label>
+                                            </div>
+                                        </div>
+                                        <div class="form-group mt-3">
+                                            <label for="beneficiary"><i>Assessment/Billing statement issued by the beneficiary's school:</i></label>
+                                            <div class="custom-file mt-2">
+                                                <input type="file" class="custom-file-input form-control" id="beneficiary">
+                                                <label class="custom-file-label" for="beneficiary"></label>
+                                            </div>
+                                        </div>
+                                        <div class="form-group mt-3">
+                                            <label for="dti">Proof of relationship to the beneficiary <i style="font-size:small;">
+                                                (i.e., birth certificate/baptismal certificate/marriage certificate)</i></label>
+                                            <div class="custom-file mt-2">
+                                                <input type="file" class="custom-file-input form-control" id="dti">
+                                                <label class="custom-file-label" for="dti"></label>
+                                            </div>
+                                        </div>
+                                        <h4 class="display-6">If Student is Employed</h4>
+                                        <hr>
+                                        <div class="form-group mt-3">
+                                            <label for="payslip"><i>Latest payslip or certificate of employment and compensation of the student or guarantor:</i></label>
+                                            <div class="custom-file mt-2">
+                                                <input type="file" class="custom-file-input form-control" id="payslip">
+                                                <label class="custom-file-label" for="payslip"></label>
+                                            </div>
+                                        </div>
+                                        <div class="form-group mt-3">
+                                            <label for="itr"><i>Latest ITR or BIR Form 2316 of student or guarantor:</i></label>
+                                            <div class="custom-file mt-2">
+                                                <input type="file" class="custom-file-input form-control" id="itr">
+                                                <label class="custom-file-label" for="itr"></label>
+                                            </div>
+                                        </div>
+                                        <br>
+                                        <h4 class="display-6">If Student is Self-Employed</h4>
+                                        <hr>
+                                         <div class="form-group mt-3">
+                                            <label for="affidavit"><i>Notarized Affidavit of No Income or Affidavit of Source and Amount of Monthly Income:</i></label>
+                                            <div class="custom-file mt-2">
+                                                <input type="file" class="custom-file-input form-control" id="affidavit">
+                                                <label class="custom-file-label" for="affidavit"></label>
+                                            </div>
+                                        </div>
+                                        <div class="form-group mt-3">
+                                            <label for="payslip1"><i>Latest payslip or certificate of employment and compensation of the guarantor:</i></label>
+                                            <div class="custom-file mt-2">
+                                                <input type="file" class="custom-file-input form-control" id="payslip1">
+                                                <label class="custom-file-label" for="payslip1"></label>
+                                            </div>
+                                        </div>
+                                        <div class="form-group mt-3">
+                                            <label for="bir"><i>Latest ITR or BIR Form 2316 of the guarantor:</i></label>
+                                            <div class="custom-file mt-2">
+                                                <input type="file" class="custom-file-input form-control" id="bir">
+                                                <label class="custom-file-label" for="bir"></label>
+                                            </div>
+                                        </div>
+                                    </form>
+                                 </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item"><!--accordion 3-->
+                            <h2 class="accordion-header" id="headingThree"> <!--a-header-->
+                                <button class="accordion-button collapsed in bg-light"
+                                        type="button"
+                                        data-bs-toggle="collapse"
+                                        data-bs-target="#accordBody3"
+                                        aria-expanded="false"
+                                        aria-controls="accordBody3">
+                                        <b style="font-family: Arial, Helvetica, sans-serif;">Authorization with E-Signature</b>
+                                </button>
+                            </h2>
+                            <div class="accordion-collapse collapsed"
+                                 id="accordBody3"
+                                 aria-labelledby="headingThree"
+                                 data-bs-parent="#studentAccordion">
+                                 
+                                 <div class="accordion-body">
+                                    <form action="">
+                                        <div class="form-group mt-2">
+                                            <label for="agree">I authorize prospective Credit Grantors/Lending/Leasing 
+                                                Companies to obtain personal and credit information about me from 
+                                                my employer and credit bureau, or credit reporting agency, any 
+                                                person who has or may have any financial dealing with me, or from 
+                                                any references I have provided. This information, as well as that 
+                                                provided by me in the application, will be referred to in connection 
+                                                with this lease and any other relationships we may establish from 
+                                                time to time. Any personal and credit information obtained may be 
+                                                disclosed from time to time to other lenders, credit bureaus or 
+                                                other credit reporting agencies. </label>
+                                        </div>
+                                        <div class="form-check mt-2">
+                                            <input class="form-check-input" type="checkbox" id="agree">
+                                            <label class="form-check-label" for="agree">
+                                                <b><i>I agree</i></b>
+                                            </label>
+                                        </div>
+                                        <div class="form-group mt-2">
+                                            <label for="agree2">I hereby agree that the information given is true, 
+                                                accurate and complete as of the date of this application submission.</label>
+                                        </div>
+                                        <div class="form-check mt-2">
+                                            <input class="form-check-input" type="checkbox" id="agree2">
+                                            <label class="form-check-label" for="yes">
+                                                <b><i>I agree</i></b>
+                                            </label>
+                                        </div>
+                                        <div class="form-group mt-3">
+                                            <label for="esignature"><b>Upload your E-Signature</b></label>
+                                            <div class="custom-file mt-2">
+                                                <input type="file" class="custom-file-input form-control" id="esignature">
+                                                <label class="custom-file-label" for="esignature"></label>
+                                            </div>
+                                        </div>
+                                    </form>
+                                 </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item"><!--accordion 4-->
+                            <h2 class="accordion-header" id="headingFour"> <!--a-header-->
+                                <button class="accordion-button collapsed in bg-light"
+                                        type="button"
+                                        data-bs-toggle="collapse"
+                                        data-bs-target="#accordBody4"
+                                        aria-expanded="false"
+                                        aria-controls="accordBody4">
+                                        <b style="font-family: Arial, Helvetica, sans-serif;">Downloadable Form <i style="font-size: small;">
+                                            (For others who don't know how to use the form section)</i></b>
+                                </button>
+                            </h2>
+                            <div class="accordion-collapse collapsed"
+                                 id="accordBody4"
+                                 aria-labelledby="headingFour"
+                                 data-bs-parent="#studentAccordion">
+                                 
+                                 <div class="accordion-body">
+                                    <!--pdf na form-->
+                                    <a href="STUDENT LOAN FORM.pdf" target="_blank" download>
+                                        <img src="downloadpdf.png" width="300" height="70">
+                                      </a>                                      
+                                 </div>
+                            </div>
+                        </div>
+                        <div>
+                            <a href="thank_you_education.html"><button type="submit" class="btn btn-danger mt-5">Submit Form</button></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Form Ends here-->
+
+    <!--Start of footer-->
+    <footer class="bg-light">
+        <div class="container-fluid">
+
+            <div class="row">
+                <div class="col-sm-12 col-md-6 mt-5 mb-2">
+                    <img src="Pahiram-Logo-removebg-preview.png" style="width:150px;">
+                    <p class="text-justify">We are recognized for transparency and fairness in the way we deal with our stakeholders.
+                        Our goal is to help every Filipinos optimize their full potential and achieve major growth.
+                        We provide affordable credit to the underserved guided by best-in-class management systems and leading practices. We lead a motivated, competent and professional workforce.
+                    </p>
+                </div>
+                <div class="col-xs-6 col-md-3 mt-4 mb-2">
+                    <h4></h4>
+                    <ul style="list-style-type: none;">
+                        <li><i class="bi bi-arrow-90deg-right fst-normal"> <a href="index-1.html" class="ftrlinks">Home</a></i></li>
+                        <li><i class="bi bi-arrow-90deg-right fst-normal"> <a href="learn_page.html" class="ftrlinks">Learn</a></i></li>
+                        <li><i class="bi bi-arrow-90deg-right fst-normal"> <a href="about_page.html" class="ftrlinks">About Us</a></i></li>
+                        <li><i class="bi bi-arrow-90deg-right fst-normal"> <a href="privacy_page.html" class="ftrlinks">Privacy Policy</a></i></li>
+                        <li><i class="bi bi-arrow-90deg-right fst-normal"> <a href="sitemap_page.html" class="ftrlinks">Site Map</a></i></li>
+                        <li><i class="bi bi-arrow-90deg-right fst-normal"> <a href="terms_page.html" class="ftrlinks">Terms of Use</a></i></li>
+                    </ul>
+                </div>
+                <div class="col-xs-6 col-md-3 mt-4 mb-2">
+                    <h4></h4>
+                    <ul style="list-style-type: none;">
+                        <li><i class="bi bi-envelope-paper fst-normal"> <u>pahiram_ph@gmail.com</u></i></li><br>
+                        <li><i class="bi bi-telephone"> +02 8 226 53 35</i></li><br>
+                        <li><i class="bi bi-phone"> +63 921 533 9102</i></li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Section: Social media -->
+                <section class=" justify-content-center text-center d-lg-flex">
+                    <!-- Facebook -->
+                    <a href="" class="mx-3 mb-3 dot" role="button">
+                        <i class="bi bi-facebook" style="font-size: 30pt; color: black;"></i>
+                    </a>
+                    <!-- Twitter -->
+                    <a href="" class="mx-3 mb-3 dot1" role="button">
+                        <i class="bi bi-twitter" style="font-size: 30pt; color: black;"></i>
+                    </a>
+                    <!-- Google -->
+                    <a href="" class="mx-3 mb-3 dot2" role="button">
+                        <i class="bi bi-google" style="font-size: 30pt; color: black;"></i>
+                    </a>
+                    <!-- Github -->
+                    <a href="" class="mx-3 mb-3 dot3" role="button">
+                        <i class="bi bi-github" style="font-size: 30pt; color: black;"></i>
+                    </a>
+                </section>
+            <!-- Section: Social media -->
+
+        </div>
+    </footer>
+    <!--End of footer-->
+</body>
+</html>

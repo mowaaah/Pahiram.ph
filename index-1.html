@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Pahiram.ph</title>
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+			rel="stylesheet"
+			integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
+			crossorigin="anonymous"
+		/>
+		<script
+			src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+			integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+			crossorigin="anonymous"
+		></script>
+		<link
+			rel="stylesheet"
+			href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css"
+		/>
+        <!--ICONS-->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+        
+        <!--ICON ON TITLE BAR-->
+	    <link rel="shortcut icon" href="icon-modified.png" type="image/x-icon"/>
+
+        <style>
+            .ftrlinks{
+                color: #22272C;
+            }
+            .ftrlinks:hover{
+                color: gray;
+            }
+            .dot {
+                height: 60px;
+                width: 60px;
+                background-color: #004AAD;
+                border-radius: 50%;
+                display: inline-block;
+            }
+            .dot1 {
+                height: 60px;
+                width: 60px;
+                background-color: #FFDE59;
+                border-radius: 50%;
+                display: inline-block;
+            }
+            .dot2 {
+                height: 60px;
+                width: 60px;
+                background-color: #FF1616;
+                border-radius: 50%;
+                display: inline-block;
+            }
+            .dot3 {
+                height: 60px;
+                width: 60px;
+                background-color: white;
+                border-radius: 50%;
+                display: inline-block;
+            }
+        </style>
+
+	</head>
+	<body>
+        <!--start of navbar-->
+    <div class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid ">
+            <a class="navbar-brand" href="index-1.html">
+                <img src="Pahiram-Logo-removebg-preview.png" style="width: 200px;">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#NavBarMenu" aria-controls="NavBarMenu" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon">
+                </span>
+            </button>
+            <div class="collapse navbar-collapse" id="NavBarMenu">
+
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 text-center">
+                   <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="index-1.html">Home</a>
+                   </li>
+                   <li class="nav-item">
+                    <a class="nav-link" href="learn_page.html">Learn</a>
+                   </li>
+                   <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="" role="button" data-bs-toggle="dropdown" aria-expanded="false">Loan Application</a>
+                      <ul class="dropdown-menu">
+                          <li>
+                              <a class="dropdown-item" href="Personal-Form.html">Personal Loan</a>
+                          </li>
+                          <li>
+                              <a class="dropdown-item" href="Business-Form.html">Business Loan</a>
+                          </li>
+                          <li>
+                              <a class="dropdown-item" href="Educational-Form.html">Student Loan</a>
+                          </li>
+                      </ul>
+                   </li> 
+
+                   <li class="nav-item">
+                    <a class="nav-link" href="about_page.html">About</a>
+                   </li>
+                </ul>
+
+                <form class="input-group d-lg-flex w-75 justify-content-center mx-auto" role="search">
+                    <input class="form-control ms-4 rounded-0" type="search" placeholder="Loan, Learn more, etc." aria-label="Search">
+                    <button class="btn btn-outline-dark rounded-0" type="submit">Search</button>
+                </form>
+                <div class="col-lg-1 d-flex justify-content-center">
+                    <a href="login_page.html"><button type="submit" class="btn btn-outline-dark">Log In</button></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--end of navbar-->
+    
+    <!--start of carousel-->
+    <div class="container-fluid justify-content-center">
+        <div class="row">
+            <div class="col p-0">
+                <div class="container-fluid max-height p-0">
+                    <div id="carouselKo" class="carousel slide carousel-light" data-bs-interval="5000" data-bs-ride="carousel">
+
+                    <!--indicator-->
+                      <div class="carousel-indicators">
+                        <button type="button" 
+                           data-bs-target="#carouselKo" 
+                           data-bs-slide-to="0" 
+                           class="active"
+                           aria-current="true" 
+                           aria-label="Slide 1">
+                        </button>
+
+                        <button type="button" 
+                          data-bs-target="#carouselKo" 
+                          data-bs-slide-to="1" 
+                          aria-current="false" 
+                          aria-label="Slide 2">
+                        </button>
+
+                        <button type="button" 
+                          data-bs-target="#carouselKo" 
+                          data-bs-slide-to="2" 
+                          aria-current="false" 
+                          aria-label="Slide 3">
+                        </button>
+
+                        <button type="button" 
+                          data-bs-target="#carouselKo" 
+                          data-bs-slide-to="3" 
+                          aria-current="false" 
+                          aria-label="Slide 4">
+                        </button>
+
+                      </div>
+
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="1 carousel.png" class="d-block w-100">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="2 carousel.png" class="d-block w-100">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="3 carousel.png" class="d-block w-100">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="4 carousel.png" class="d-block w-100">
+                        </div>
+                    </div>
+
+                    <!--controls-->
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselKo" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselKo" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br><br>
+    <!--end of carousel-->
+
+        <!--Start of Calculator-->
+        <div class="container-fluid d-block">
+            <div class="row justify-content-center align-items-center">
+                <div class="col-md-7 border-dark">
+                    <h1 class="display-5 text-center text-primary">LOAN CALCULATOR</h1>
+                    <form >
+                        <div class="form-row form-control-lg text-center">
+                          <div class="form-group col-12">
+                            <label for="inputEmail4">Loan Amount: ₱</label>
+                            <input type="number" class="form-control" id="inputEmail4" placeholder="Input Amount">
+                          </div>
+                          <div class="form-group col-12">
+                            <label for="inputPassword4">Interest Rate: %</label>
+                            <input type="number" class="form-control" id="inputPassword4" placeholder="Input Rate">
+                          </div>
+  
+                         <div class="form-group col-12">
+                          <label for="inputAddress">Months to pay:</label>
+                          <input type="number" class="form-control" id="inputMonths" placeholder="1-12">
+                         </div>
+
+                        </div>
+
+                        <center>
+                            <div class="my-4">
+                                <button type="button" 
+                                class="btn btn-warning justify-content-center align-items-center w-100"
+                                data-bs-toggle="modal"
+                                data-bs-target="#modalOne">
+                                <b>Calculate Now</b>
+                                </button>
+                                <div class="modal fade" id="modalOne" tabindex="-1">
+                                    <div class="modal-dialog">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h5 class="modal-title" id="modalTitle"> Do you confirm the following Information?</h5>
+                                                <button class="btn-close"
+                                                        type="button"
+                                                        data-bs-dismiss="modal"
+                                                        aria-label="close">
+                                                </button>
+                                            </div>
+                                             <!--end of header-->
+                                             <div class="modal-body">
+                                                <p>
+                                                    Loan Amount: ₱XX.XX
+                                                    <br>
+                                                    Interest Rate: XX%
+                                                    <br>
+                                                    Months to pay: X months
+                                                </p>
+                                             </div>
+                                             <!--end of modal body-->
+                                             <div class="modal-footer">
+                                                <button class="btn btn-primary"
+                                                        type="button">
+                                                        Yes, Korique!
+                                                </button>
+                                                <button class="btn btn-danger"
+                                                        type="button">
+                                                        No, MALI!
+                                                </button>
+                                             </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!--end of modal-->
+                            </div>
+
+                        </center>
+
+                        </div>
+                        </form>
+                </div>
+            </div>
+        </div>
+        <!--End of Calculator-->
+    
+    <div class="container-fluid">
+            
+    <div class="col-md-12">
+        <center>
+            <div class="row">
+                <div class="col">
+                    <div class="container d-lg-flex d-block justify-content-center mt-5">
+
+                        <div class="card border-primary m-2" style="width:18rem;">
+                            <img src="personal loan.png" class="h-100">
+                            <div class="card-body">
+                                <h5 class="card-title">Personal</h5>
+                                <p class="card-text">Some quick example text to build on the card title 
+                                    and make up the buld of the card's content </p>
+                                <a href="Personal-Form.html" class="btn btn-primary">Online Form</a>
+                                <a href="PERSONAL LOAN FORM.pdf" class="btn btn-primary mt-3" download>Download Form</a>
+                            </div>
+                        </div>
+                        <div class="card border-warning m-2" style="width:18rem;">
+                            <img src="business loan.png" class="h-100">
+                            <div class="card-body">
+                                <h5 class="card-title">Business</h5>
+                                <p class="card-text">Some quick example text to build on the card title 
+                                    and make up the buld of the card's content </p>
+                                <a href="Business-Form.html" class="btn btn-warning">Online Form</a>
+                                <a href="BUSINESS LOAN FORM.pdf" class="btn btn-warning mt-3" download>Download Form</a>
+                            </div>
+                        </div>
+                        <div class="card border-danger m-2" style="width:18rem;">
+                            <img src="student loan.png" class="h-100">
+                            <div class="card-body">
+                                <h5 class="card-title">Student</h5>
+                                <p class="card-text">Some quick example text to build on the card title 
+                                    and make up the buld of the card's content </p>
+                                <a href="Educational-Form.html" class="btn btn-danger">Online Form</a>
+                                <a href="STUDENT LOAN FORM.pdf" class="btn btn-danger mt-3" download>Download Form</a>
+                            </div>
+                        </div>
+    
+                    </div>
+                </div>
+            </div>
+        </center>
+    </div>
+</div>
+</div>
+<br><br>
+
+    <br><br>
+    <!--start of picture rows-->
+    <div class="container-fluid">
+        <div class="row align-items-center " style="background-color: #dfdfe0;">
+            <div class="col-sm-6">
+                <center><img src="icon-removebg-preview.png" class="side-pic" style="width: 75%;"></center>
+            </div>
+            <div class="col-md-6">
+                <h1 class="display-3 text-start">About Pahiram</h1>
+                <p class="text-start">
+                    Pahiram.ph was created for a good mission for the upliftment of every Filipino 
+                    citizen who has difficulty moving due to lack of financial needs. This is a type 
+                    of poverty alleviation and contribution to the country's economy. The goal of 
+                    Pahiram.ph is to provide immediate help or solutions to those in financial 
+                    need such as stressed students, employees, and small business owners who need 
+                    additional business investment. A quick process for a quick solution for their 
+                    financial problem.
+                </p>
+            </div>
+        </div>
+    </div>
+    <!--end of picture rows-->
+    <!--Start of footer-->
+    <footer class="bg-light">
+        <div class="container-fluid">
+
+            <div class="row">
+                <div class="col-sm-12 col-md-6 mt-5 mb-2">
+                    <img src="Pahiram-Logo-removebg-preview.png" style="width:150px;">
+                    <p class="text-justify">We are recognized for transparency and fairness in the way we deal with our stakeholders.
+                        Our goal is to help every Filipinos optimize their full potential and achieve major growth.
+                        We provide affordable credit to the underserved guided by best-in-class management systems and leading practices. We lead a motivated, competent and professional workforce.
+                    </p>
+                </div>
+                <div class="col-xs-6 col-md-3 mt-4 mb-2">
+                    <h6></h6>
+                    <ul style="list-style-type: none;">
+                        <li><i class="bi bi-arrow-90deg-right fst-normal"> <a href="index-1.html" class="ftrlinks">Home</a></i></li>
+                        <li><i class="bi bi-arrow-90deg-right fst-normal"> <a href="learn_page.html" class="ftrlinks">Learn</a></i></li>
+                        <li><i class="bi bi-arrow-90deg-right fst-normal"> <a href="about_page.html" class="ftrlinks">About Us</a></i></li>
+                        <li><i class="bi bi-arrow-90deg-right fst-normal"> <a href="privacy_page.html" class="ftrlinks">Privacy Policy</a></i></li>
+                        <li><i class="bi bi-arrow-90deg-right fst-normal"> <a href="sitemap_page.html" class="ftrlinks">Site Map</a></i></li>
+                        <li><i class="bi bi-arrow-90deg-right fst-normal"> <a href="terms_page.html" class="ftrlinks">Terms of Use</a></i></li>
+                    </ul>
+                </div>
+                <div class="col-xs-6 col-md-3 mt-4 mb-2">
+                    <h6 class="ms-4">CONTACT US</h6>
+                    <ul style="list-style-type: none;">
+                        <li><i class="bi bi-envelope-paper fst-normal"> <u>pahiram_ph@gmail.com</u></i></li><br>
+                        <li><i class="bi bi-telephone"> +02 8 226 53 35</i></li><br>
+                        <li><i class="bi bi-phone"> +63 921 533 9102</i></li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Section: Social media -->
+                <section class=" justify-content-center text-center d-lg-flex">
+                    <!-- Facebook -->
+                    <a href="" class="mx-3 mb-3 dot" role="button">
+                        <i class="bi bi-facebook" style="font-size: 30pt; color: black;"></i>
+                    </a>
+                    <!-- Twitter -->
+                    <a href="" class="mx-3 mb-3 dot1" role="button">
+                        <i class="bi bi-twitter" style="font-size: 30pt; color: black;"></i>
+                    </a>
+                    <!-- Google -->
+                    <a href="" class="mx-3 mb-3 dot2" role="button">
+                        <i class="bi bi-google" style="font-size: 30pt; color: black;"></i>
+                    </a>
+                    <!-- Github -->
+                    <a href="" class="mx-3 mb-3 dot3" role="button">
+                        <i class="bi bi-github" style="font-size: 30pt; color: black;"></i>
+                    </a>
+                </section>
+            <!-- Section: Social media -->
+
+        </div>
+    </footer>
+    <!--End of footer-->
+    </body>
+</html>
